@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Welcome to the extraodinary hotel website">
+    <meta name="Keywords" content="Hotel, New Delhi, India">
+    <title>Hotel India| Contact</title>
+   <style>
+       body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            line-height: 1em;
+        }
+       
+       .container{
+        background-color:white;
+           width: 400px;
+           height: 700px;
+           border: 2px black solid;
+           box-sizing: border-box ;
+           border-radius: 10px;
+           padding: auto;
+           margin: auto;
+           text-align: center
+    
+       }.menu{
+        color: grey;
+    }
+    .end{
+        color: grey;
+    }
+    .z a:hover{
+        color:teal;
+    }
+    .end a:hover{
+        color: olive;
+    }
+ 
+       #contact-form{
+           background-color: lightgoldenrodyellow;
+       }
+       .submit{
+           background-color:lightgreen;
+    color: white;
+           border-radius: 12px;   
+       font-size: 18px;
+     }
+   </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <nav id="navbar"> 
+         <h1 class="logo"><a
+             href="01-index.html">HBT</a></h1>
+        <ul>
+            <li><a href="01-index.html">Home</a></li>
+            <li><a  href="02-about.html">About</a></li>
+            <li><a class="current" href="03-contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+    </header>
+
+    <section id="contact-form">
+      <div class="container">
+            <h1 class="l-heading"><span> Contact </span> Us</h1>
+            <p id="p-head">Please Fill out the form to book room</p>
+            <br>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" name="name" id="name">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" Email="Email" id="Email">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="text" Password="Password" id="Password">
+                        </div>
+    <br>
+        <button class="submit">submit</button>
+        <br>
+        <p class="menu">
+            By clicking you will accept our terms and conditions
+          </p>
+         <p class="z"><a href="#">Terms & conditions</a> and
+          <a href="#">Private policy</a></p> 
+          
+        <p class="end">Already have account <a href="#">Login here</a></p>
+     
+        </form>
+    </div>
+
+    </section>
+    
+    <footer id="main-footer">
+<p>Hotel India &copy;2020,All Righte Reserved</p>
+    </footer>
+</body>
+</html>
